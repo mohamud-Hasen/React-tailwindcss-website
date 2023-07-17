@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 /* Import Tailwind CSS first */
-/* @import 'tailwindcss/base';
+@import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'; */
+@import 'tailwindcss/utilities';
 
 /* Your custom CSS and styles go here */
 
@@ -16,7 +16,7 @@
   --primary-light: #709dff;
 }
 @layer base {
-  html{
+  html {
     @apply scroll-smooth
   }
   body {
