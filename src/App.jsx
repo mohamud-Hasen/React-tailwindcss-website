@@ -2,6 +2,7 @@ import React from 'react'
 import TopBar from './conponents/TopBar'
 import Navbar from './conponents/Navbar'
 import Heromg from './conponents/Herosec'
+import Activities from './conponents/Activities'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <TopBar />
       <Navbar />
       <Heromg />
+      <Activities />
     </div>
   )
 }
