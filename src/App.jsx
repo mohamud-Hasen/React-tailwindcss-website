@@ -4,6 +4,7 @@ import Navbar from './conponents/Navbar'
 import Heromg from './conponents/Herosec'
 import Activities from './conponents/Activities'
 import Booking from './conponents/Booking'
+import Gallery from './conponents/Gallery'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Heromg />
       <Activities />
       <Booking />
+      <Gallery />
     </div>
   )
 }
