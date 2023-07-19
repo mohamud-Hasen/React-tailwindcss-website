@@ -5,6 +5,8 @@ import Heromg from './conponents/Herosec'
 import Activities from './conponents/Activities'
 import Booking from './conponents/Booking'
 import Gallery from './conponents/Gallery'
+import Contact from './conponents/Contact'
+import Footer from './conponents/Footer'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Activities />
       <Booking />
       <Gallery />
+      <Contact />
+      <Footer />
     </div>
   )
 }
