@@ -7,7 +7,7 @@ const TopBar = () => {
     <div className='flex justify-between items-center px-4 py-2'>
         <div className='flex items-center'>
             <BsChatSquareDots size={30} className='text-[var(--primary-dark)] mr-2' />
-            <h1 className='text-xl font-bold text-gray-700'>WEEKAWAY</h1>
+            <h1 className='text-xl font-bold text-gray-700'>Taran Travel & Tours</h1>
         </div>
         <div className='flex'>
         <div className='hidden md:flex px-6'>
@@ -16,7 +16,7 @@ const TopBar = () => {
         </div>
         <div className='hidden md:flex px-6'>
             <AiFillPhone size={20} className='mr-2 text-[var(--primary-dark)]' />
-            <p className='text-sm text-gray-800'>1-612-437-5806</p>
+            <p className='text-sm text-gray-800'>1-997-437-5806</p>
         </div>
         <button>Get a Free Quate</button>
         </div>

@@ -1,7 +1,9 @@
 import React from 'react'
-import Resort from '../assets/resort.jpg'
-import Resort2 from '../assets/resort2.jpg'
-import Cruse from '../assets/cruse.jpg'
+import Resor1 from '../assets/resor1.jpg'
+import Resor2 from '../assets/resor2.jpg'
+import Resor3 from '../assets/resor3.jpg'
+import Resor4 from '../assets/resor4.jpg'
+import Rseor5 from '../assets/rseor5.jpg'
 
 const Gallery = () => {
   return (
@@ -9,17 +11,23 @@ const Gallery = () => {
         <h2 className='text-center text-gray-700 p-4'>Our Gallery</h2>
         < div className='grid sm:grid-cols-5 gap-4'>
         <div className='sm:col-span-3 col-span-2 row-span-2'>
-        <img src={Resort} className='w-full h-full object-cover '  />
+        <img src={Resor1} className='w-full h-full object-cover '  />
         </div>
         
     
         <div >
-        <img src={Resort2} className='w-full h-full object-cover ' />
+        <img src={Resor2} className='w-full h-full object-cover ' />
         </div>
         
         
         <div>
-        <img src={Cruse} className='w-full h-full object-cover ' />
+        <img src={Resor3} className='w-full h-full object-cover ' />
+        </div>
+        <div>
+        <img src={Resor4} className='w-full h-full object-cover ' />
+        </div>
+        <div>
+        <img src={Rseor5} className='w-full h-full object-cover ' />
         </div>
         </div>
     </div>
